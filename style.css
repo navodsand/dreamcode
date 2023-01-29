@@ -1,13 +1,80 @@
-h1 {
 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: brown;
-    text-align: center;
+
+.navod {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.backimage {
+    
+   
+    width: 1150px;
+    height: 500px;
+    background: url(sigiriya-cultural-triangle-sri-lanka.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 40px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
 
 }
+
+marquee {
+    color: black;
+    opacity: 1 ;
+}
+
+.sand {
+
+    width: 500px;
+    height: 300px;
+    background-color: rosybrown ;
+    padding: 40px;
+    border-radius: 20px;
+    opacity: 0.5;
+    
+}
+
 
 body {
-
-    background-color: rgb(23, 23, 74);
-
+    background-color: black;
 }
+
+.topnav {
+    background-color: rgb(75, 20, 152);
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
