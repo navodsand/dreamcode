@@ -30,7 +30,7 @@
 }
 
 .marquee {
-    color: black;
+    color: rgb(91, 12, 131);
     opacity: 1 ;
 }
 
@@ -41,7 +41,7 @@
     background-color: rosybrown ;
     padding: 40px;
     border-radius: 20px;
-    opacity: 0.5;
+    opacity: 0.8;
     
 }
 
@@ -89,4 +89,24 @@ body {
     border-radius: 30px;
     box-sizing: border-box;
     font-size: 20px;
+  }
+
+  .submit-btn {
+    margin: 5px;
+    padding: 20px 20px;
+    border: none;
+    background-color: rgb(83, 26, 159);
+    border-radius: 30px;
+    color: #fff;
+    width: 100%;
+    font-size: 20px;
+  }
+  .fogot-pass-link {
+    align-self: center;
+    padding: 100px 100px;
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(15, 70, 104);
+    font-size: 20px;
+    font-family: joker;
   }
