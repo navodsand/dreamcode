@@ -112,7 +112,7 @@ body {
   }
 
   .topbar{
-    background-color: rgb(75, 20, 152);
+    /* background-color: rgb(75, 20, 152); */
     /* overflow: hidden; */
     position:relative; 
     left:80px; top:2px; 
